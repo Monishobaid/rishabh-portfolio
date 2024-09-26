@@ -2,7 +2,7 @@
 
 import { useState } from 'react'
 import Highlight, { defaultProps } from 'prism-react-renderer'
-import vsDark from 'prism-react-renderer/themes/vsDark'
+import { vsDark } from 'prism-react-renderer';
 
 import { Button, Flex, Box, chakra } from '@chakra-ui/react'
 

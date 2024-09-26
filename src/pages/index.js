@@ -14,7 +14,7 @@ const Home = ({ topBlogs, recentBlogs }) => {
 	return (
 		<>
 			<Head>
-				<title>Cules Blog</title>
+				<title>hello world</title>
 			</Head>
 
 			<BlogPreviewList header='Top Blogs' blogs={topBlogs} />

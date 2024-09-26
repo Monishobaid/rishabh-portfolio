@@ -15,7 +15,7 @@ const PageLayout = ({ children }) => {
 			</Container>
 
 			<Center m='2rem 0'>
-				<Text>© Copyright Cules Coding 2022</Text>
+				<Text>Hello world</Text>
 			</Center>
 
 			<ToggleColorModeButton />

@@ -1,6 +1,6 @@
 import { Text, Heading } from '@chakra-ui/react'
 
-import { ChakraTextLink } from 'components/ChakraLink'
+import { ChakraTextLink } from '../../components/ChakraLink'
 
 const components = {}
 

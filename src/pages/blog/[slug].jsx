@@ -3,12 +3,12 @@ import React from 'react'
 import { serialize } from 'next-mdx-remote/serialize'
 import { MDXRemote } from 'next-mdx-remote'
 
-import connectDb from 'mongoose/connectDb'
-import Blog from 'mongoose/models/Blog'
+import connectDb from '../../mongoose/connectDb'
+import Blog from '../../mongoose/models/Blog'
 
-import BlogHead from 'components/Blog/BlogHead'
+import BlogHead from '../../components/Blog/BlogHead'
 
-import MdxComponents from 'components/MDX/MdxComponents'
+import MdxComponents from '../../components/MDX/MdxComponents'
 
 const BlogPage = ({ mdxSource, blogData }) => {
 	return (

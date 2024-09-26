@@ -1,5 +1,5 @@
-import connectDb from 'mongoose/connectDb'
-import Blog from 'mongoose/models/Blog'
+import connectDb from '../../../mongoose/connectDb'
+import Blog from '../../../mongoose/models/Blog'
 
 const handler = async (req, res) => {
 	const {

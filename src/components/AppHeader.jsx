@@ -50,7 +50,7 @@ const Logo = () => {
 				src='/logo.jpg'
 				height={dimension}
 				width={dimension}
-				alt='Cules Coding'
+				alt='Hello World'
 			/>
 		</ChakraNextLink>
 	)

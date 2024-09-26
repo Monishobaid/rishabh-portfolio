@@ -4,7 +4,7 @@ import axios from 'axios'
 
 import { Box, HStack, VStack, Text, Heading, LinkBox } from '@chakra-ui/react'
 
-import useGetViews from 'hooks/useGetViews'
+import useGetViews from '../../hooks/useGetViews'
 
 const BlogHead = ({
 	banner,
